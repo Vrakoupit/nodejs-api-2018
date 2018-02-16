@@ -3,14 +3,10 @@
 module.exports = {
     name: 'token',
     version: '1.0.0',
-    register: (request, options) => {
-        // console.log('request', request);
-        // console.log('options', options);
+    register: (server, handler) => {
 
-        request.events.once('finish', () => {
-            console.log('titi')
+        server.events.on('request', (request, response) => {
+            return response.continue;
         })
-
-        return options.continue();
     }
 }

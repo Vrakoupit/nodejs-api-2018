@@ -1,12 +1,13 @@
 'use strict';
 
 module.exports = {
-    database: 'example://example:example@localhost:3306/example',
+    database: 'YOUR_DATABASE_STRING',
     http: { 
-        host: 'localhost', 
-        port: 8000,
+        host: 'YOUR_HOST', 
+        port: 'YOUR_PORT',
         routes: {
-            cors: {origin: ['*']
+            cors: {
+                origin: ['YOUR_AUTHORIZED_URL']
             }
         }
     }
