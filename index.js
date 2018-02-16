@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * Requirements
+ */
 const Hapi = require('hapi');
 
 const env = process.env.NODE_ENV || 'development';
