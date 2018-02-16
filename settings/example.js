@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    database: 'YOUR_DATABASE_STRING',
+    database: 'YOUR_DATABASE',
     http: { 
         host: 'YOUR_HOST', 
         port: 'YOUR_PORT',

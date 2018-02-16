@@ -1,0 +1,9 @@
+# Ignore .pyc files
+node_modules/
+
+# Ignore settings files
+settings/development.js
+settings/production.js
+
+# Ignore .DS_Store
+*.DS_Store
